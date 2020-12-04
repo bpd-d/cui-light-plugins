@@ -1,0 +1,1 @@
+export const CUI_LIGHT_PLUGINS_VERSION = "0.1.0";

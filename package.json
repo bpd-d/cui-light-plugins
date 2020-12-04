@@ -1,0 +1,58 @@
+{
+  "name": "cui-light-plugins",
+  "version": "0.1.0",
+  "description": "Plugins package for cui-light",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "/dist/index.js",
+    "/dist/index.js.map",
+    "/dist/index.min.js",
+    "/dist/index.min.js.map",
+    "/dist/index.d.ts",
+    "/dist/esm/index.js",
+    "/dist/esm/index.d.ts",
+    "/dist/esm/**/*"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.production.js",
+    "build:minify": "webpack --config webpack.build.minify.js",
+    "test": "karma start karma.config.js",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "prod": "npm run build && npm run build:esm && npm run build:minify"
+  },
+  "bugs": {
+    "url": "https://github.com/bpd-d/cui-light-plugins/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpd-d/cui-light-plugins.git"
+  },
+  "homepage": "https://github.com/bpd-d/cui-light-plugins#readme",
+  "keywords": [
+    "ui",
+    "cui",
+    "framework",
+    "light"
+  ],
+  "author": "BP",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "cui-light-core": "^0.1.7",
+    "dts-bundle": "^0.7.3",
+    "jasmine": "^3.6.3",
+    "karma-typescript": "^5.0.3",
+    "serialize-javascript": ">=2.1.1",
+    "terser-webpack-plugin": "^3.1.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.9.7",
+    "typescript-transform-paths": "^1.1.10",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-karma-jasmine": "^4.0.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
