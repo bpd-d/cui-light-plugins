@@ -1,7 +1,7 @@
 import { ICuiPlugin } from "cui-light-core/dist/esm/models/interfaces";
 import { CuiUtils } from "cui-light-core/dist/esm/models/utils";
 export interface CuiKeysObserverPluginSetup {
-    autoPrint: boolean;
+    dummy?: boolean;
 }
 export declare class CuiKeysObserverPlugin implements ICuiPlugin {
     #private;

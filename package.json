@@ -1,6 +1,6 @@
 {
   "name": "cui-light-plugins",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Plugins package for cui-light",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",

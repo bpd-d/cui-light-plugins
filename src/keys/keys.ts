@@ -4,7 +4,7 @@ import { ICuiKeysObserver, CuiKeysObserver } from "./observer";
 
 
 export interface CuiKeysObserverPluginSetup {
-    autoPrint: boolean;
+    dummy?: boolean;
 }
 
 export class CuiKeysObserverPlugin implements ICuiPlugin {
