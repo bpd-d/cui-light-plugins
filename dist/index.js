@@ -101,7 +101,7 @@ return /******/ (function(modules) { // webpackBootstrap
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CUI_LIGHT_PLUGINS_VERSION", function() { return CUI_LIGHT_PLUGINS_VERSION; });
-const CUI_LIGHT_PLUGINS_VERSION = "0.2.1";
+const CUI_LIGHT_PLUGINS_VERSION = "0.2.3";
 
 
 /***/ })
