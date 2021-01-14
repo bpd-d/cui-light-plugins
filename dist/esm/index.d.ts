@@ -1,1 +1,1 @@
-export declare const CUI_LIGHT_PLUGINS_VERSION = "0.2.4";
+export declare const CUI_LIGHT_PLUGINS_VERSION = "0.2.5";

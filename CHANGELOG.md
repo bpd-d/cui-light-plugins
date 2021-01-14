@@ -1,5 +1,7 @@
 # cui-light-plugins
-# [0.2.3] 2020-01-10
+# [0.2.5] 2020-01-14
+* [Changed] Update core to 0.2.7
+# [0.2.4] 2020-01-10
 * [Changed] Update core to 0.2.6
 # [0.2.3] 2020-12-18
 * [Changed] Update core to 0.2.5
